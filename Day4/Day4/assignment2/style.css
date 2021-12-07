@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainOne{
+    border: 1px solid red;
+    width: 300px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.mainTwo{
+    border: 1px solid blueviolet;
+    top: 10px;
+    width: 300px;
+    height: 20px;
+    display: flex;
+    margin-top: 10px;
+    flex-direction:row-reverse;
+}
+.mainThree{
+    border: 1px solid orange;
+    top: 10px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    margin-top: 10px;
+    flex-direction:column;
+}
+.mainFour{
+    border: 1px solid black;
+    top: 10px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    margin-top: 10px;
+    flex-direction:column-reverse;
+}
+.mainFive{
+    border: 1px solid red;
+    top: 10px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.mainSix{
+    border: 1px solid rgb(32, 218, 94);
+    top: 10px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap-reverse;
+}
+.mainSeven{
+    border: 1px solid rgb(32, 218, 94);
+    top: 10px;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    margin-top: 10px;
+}
+.mOne,.mThree,.mFive{
+    border: 1px solid red;
+    width: 30px;
+    height: 20px;
+}
+.mTwo,.mFour{
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    flex-grow: 1;
+}
+/*flux-basis*/
+.mainEight{
+    border: 1px solid red;
+    top: 20px;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    margin-top: 10px; 
+}
+.nOne,.nThree,.nFive{
+    border: 1px solid blue;
+    width: 30px;
+    height: 20px;
+    flex-basis: 100px;
+}
+.nTwo,.nFour{
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+}
+
+.mainNine{
+    border: 1px solid red;
+    top: 20px;
+    width: 500px;
+    height:40px;
+    display: flex;
+    margin-top: 10px; 
+    justify-content: center;
+    align-items: center;
+}
+.mainTen{
+    border: 1px solid blue;
+    top: 20px;
+    width: 500px;
+    height:40px;
+    display: flex;
+    margin-top: 10px; 
+   justify-content: flex-end;
+}
+.mainEleven{
+    border: 1px solid orange;
+    top: 20px;
+    width: 500px;
+    height:40px;
+    display: flex;
+    margin-top: 10px; 
+   justify-content: space-between;
+}
+.mainTwelve{
+    border: 1px solid black;
+    top: 20px;
+    width: 500px;
+    height:40px;
+    display: flex;
+    margin-top: 10px; 
+   justify-content: space-around;
+}
+.main1{
+    border: 1px solid gold;
+    top: 20px;
+    width: 500px;
+    height:40px;
+    display: flex;
+    margin-top: 10px; 
+   justify-content: space-evenly;
+}
+.aOne{
+    border: 1px solid blue;
+    width: 30px;
+    height: 20px;
+    background-color: gold;
+}
+.aTwo{
+    border: 1px solid blue;
+    width: 30px;
+    height: 20px;
+    background-color:blue;
+}
+.aThree{
+    border: 1px solid blue;
+    width: 30px;
+    height: 20px;
+    background-color: red;
+}
+.aFour{
+    border: 1px solid blue;
+    width: 30px;
+    height: 20px;
+    background-color: black;
+}
+.aFive{
+    border: 1px solid blue;
+    width: 30px;
+    height: 20px;
+    background-color: orchid;
+}
+.main2{
+    border: 1px solid black;
+    top: 20px;
+    width: 500px;
+    height:90px;
+    margin-left: 50px;
+    display: flex;
+    margin-top: 10px; 
+    align-items: center;
+}
+.main3{
+    border: 1px solid red;
+    top: 20px;
+    width: 500px;
+    height:90px;
+    margin-left: 50px;
+    display: flex;
+    margin-top: 10px; 
+    align-items: flex-start;
+}
+.main4{
+    border: 1px solid yellowgreen;
+    top: 20px;
+    width: 500px;
+    height:90px;
+    margin-left: 50px;
+    display: flex;
+    margin-top: 10px; 
+    align-items: flex-end;
+}
+.main5{
+    border: 1px solid burlywood;
+    top: 20px;
+    width: 500px;
+    height:90px;
+    margin-left: 50px;
+    display: flex;
+    margin-top: 10px; 
+    align-items: baseline;
+}
+.bOne,.bThree,.bFive{
+    border: 1px solid blue;
+    width: 30px;
+    height: 20px;
+ 
+}
+.bTwo,.bFour{
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+}
