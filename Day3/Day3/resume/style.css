@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    color: white;
+  }
+  .mainBox {
+    border: 1px solid white;
+    width: 1000px;
+    height: 1000px;
+    background-color: #5959e4;
+  }
+  .boxOne {
+    padding-left: 50px;
+    color: white;
+    padding-right: 5px;
+  }
+  p {
+    font-size: 1em;
+  }
+  .boxTwo {
+    padding-left: 50px;
+    color: white;
+    padding-right: 10px;
+  }
+  .boxThree {
+    padding-left: 60px;
+    color: white;
+  }

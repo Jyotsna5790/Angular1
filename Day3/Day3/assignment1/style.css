@@ -1,0 +1,41 @@
+.one:hover{
+    color: red;
+    }
+    .two,.three:visited{
+        color: brown;
+    }
+    .four:focus{
+        color: springgreen;
+    }
+    .five:link{
+        color:gold;
+    }
+    .main{
+        font-size: 2rem;
+    }
+    .elementOne::first-line{
+        color: red;
+    }
+    .elementTwo::first-letter{
+        color: red;
+    }
+    .elementThree::after{
+        content: " hi";
+    }
+    .elementFour::before{
+        content: "Hi ";
+    }
+    li:first-child{
+        color: red;
+    }
+    li:last-child{
+        color: blue;
+    }
+    h4:nth-child(odd)
+    {
+        color: gold;
+    }
+    h4:nth-child(4)
+    {
+        color: magenta;
+    }
